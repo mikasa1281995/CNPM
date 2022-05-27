@@ -15,3 +15,4 @@ Sau khi tạo database thành công thì có thể vào website đăng nhặp b�
 
 mật khẩu: 123123.
 
+Nếu vẫn không chạy được thì hãy xem clip hướng dẫn: https://youtu.be/flUgvw-mBRo
