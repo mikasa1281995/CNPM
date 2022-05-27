@@ -78,10 +78,10 @@ CREATE TABLE `purchase` (
 --
 
 INSERT INTO `purchase` (`id`, `product_id`, `product_buy`, `users_id`, `full_name`, `company`, `bank_name`, `bank_id`, `momo`, `status`, `delivery`) VALUES
-(1, 1, 12, 101, 'Lê Đinh Quang Huy', 'Công Ty TNHH Két zịt', '', '', '', 'Đã thanh toán', 'Đã giao hàng'),
-(2, 9, 30, 101, 'Lê Đinh Quang Huy', 'Công Ty TNHH Két zịt', '', '', '0915488487', 'Đã thanh toán', 'Chưa giao hàng'),
-(4, 5, 5, 102, 'Nguyễn Khắc Minh Luân', 'Công Ty TNHH LuânHeHe', '', '', '', 'Chưa thanh toán', 'Chưa giao hàng'),
-(17, 2, 6, 105, 'KhachVIP', 'Công Ty TNHH HuyCute', 'ngân hàng MB', '0916238911', '', 'Đã thanh toán', 'Đã giao hàng');
+(17, 2, 6, 105, 'KhachVIP', 'Công Ty TNHH HuyCute', 'ngân hàng MB', '0916238911', '', 'Đã thanh toán', 'Đã giao hàng'),
+(1, 1, 12, 106, 'Lê Đinh Quang Huy', 'Công Ty TNHH Két zịt', '', '', '', 'Đã thanh toán', 'Đã giao hàng'),
+(2, 9, 30, 106, 'Lê Đinh Quang Huy', 'Công Ty TNHH Két zịt', '', '', '0915488487', 'Đã thanh toán', 'Chưa giao hàng'),
+(4, 5, 5, 107, 'Nguyễn Khắc Minh Luân', 'Công Ty TNHH LuânHeHe', '', '', '', 'Chưa thanh toán', 'Chưa giao hàng');
 
 -- --------------------------------------------------------
 
@@ -105,10 +105,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `full_name`, `email`, `password`, `token`, `lv`, `company`, `phone_number`) VALUES
-(100, 'Kế toán', 'ketoan@gmail.com', '4297f44b13955235245b2497399d7a93', '14c6bf639ff0f005c37b4e34fad4ef05', 'admin', 'Power', '0818700462'),
-(101, 'Lê Đinh Quang Huy', 'mikasa1281995@gmail.com', '4297f44b13955235245b2497399d7a93', '08e0ed68dd357e5181da71be241abeea', 'Đại Lý', 'Công Ty TNHH Két zịt', '0915488487'),
-(102, 'Nguyễn Khắc Minh Luân', 'askuraido@gmail.com', '4297f44b13955235245b2497399d7a93', '208429959a7c97ea06ef9803a4d54698', 'Đại Lý', 'Công Ty TNHH LuânHeHe', '0326019634'),
-(105, 'KhachVIP', 'huyle012300@gmail.com', '4297f44b13955235245b2497399d7a93', 'e739845a8d210e18fae51474dfa74041', 'Đại Lý', 'Công Ty TNHH HuyCute', '0912345678');
+(100, 'Kế toán', 'ketoan@gmail.com', '4297f44b13955235245b2497399d7a93', '14c6bf639ff0f005c37b4e34fad4ef05', 'admin', 'Power', '1234567890'),
+(105, 'KhachVIP', 'huyle012300@gmail.com', '4297f44b13955235245b2497399d7a93', 'e739845a8d210e18fae51474dfa74041', 'Đại Lý', 'Công Ty TNHH HuyCute', '0912345678'),
+(106, 'Lê Đinh Quang Huy', 'mikasa1281995@gmail.com', '4297f44b13955235245b2497399d7a93', 'b46bd7ce927c1adde173b4bcce81020b', 'Đại Lý', 'Công Ty Kít Zẹt', '0915488487'),
+(107, 'Nguyễn Khắc Minh Luân', 'askuraido@gmail.com', '4297f44b13955235245b2497399d7a93', 'bf60ce81d05576124e0b6506416f3396', 'Đại Lý', 'Công Ty LuânHeHe', '0326019634');
 
 --
 -- Indexes for dumped tables
